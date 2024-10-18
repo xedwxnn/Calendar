@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", sans-serif;;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+#calendar {
+    width: 40%;
+    min-width: 300px;
+    max-width: 300px;
+    height: 270px;
+    background-color: rgba(20, 20, 20, .85);
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    user-select: none;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px solid rgba(20, 20, 20, .5);
+}
+
+#calendar #header {
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#calendar #yearInfo #dayName {
+    margin: 20px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 20px;
+}
+
+#calendar #yearInfo #dayNumber {
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#calendar #yearInfo #yearNumber {
+    margin: 20px;
+    color: rgba(255, 255, 255, .5);
+    font-size: 20px;
+}
