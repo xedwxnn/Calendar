@@ -38,7 +38,7 @@ const calendar = document.getElementById("header");
 
 // Spring (Marzo, Abril, Mayo)
 if (currentMonthName >= 2 && currentMonthName <= 4) {
-    body.style.backgroundImage = "url('/assets/images/spring.jpg')";
+    body.style.backgroundImage = "url('../assets/images/spring.jpg')";
     body.style.backgroundSize = "cover";
     body.style.backgroundPosition = "center";
     calendar.style.backgroundColor = "#576064";
@@ -46,7 +46,7 @@ if (currentMonthName >= 2 && currentMonthName <= 4) {
 
 // Summer (Junio, Julio, Agosto)
 else if (currentMonthName >= 5 && currentMonthName <= 7) {
-    body.style.backgroundImage = "url('/assets/images/summer.jpg')";
+    body.style.backgroundImage = "url('../assets/images/summer.jpg')";
     body.style.backgroundSize = "cover";
     body.style.backgroundPosition = "center";
     calendar.style.backgroundColor = "#4b8c8b";
@@ -54,7 +54,7 @@ else if (currentMonthName >= 5 && currentMonthName <= 7) {
 
 // Autumn (Septiembre, Octubre, Noviembre)
 else if (currentMonthName >= 8 && currentMonthName <= 10) {
-    body.style.backgroundImage = "url('/assets/images/autumn.jpg')";
+    body.style.backgroundImage = "url('../assets/images/autumn.jpg')";
     body.style.backgroundSize = "cover";
     body.style.backgroundPosition = "center";
     calendar.style.backgroundColor = "#aa633c";
@@ -62,7 +62,7 @@ else if (currentMonthName >= 8 && currentMonthName <= 10) {
 
 // Winter (Diciembre, Enero, Febrero)
 else {
-    body.style.backgroundImage = "url('/assets/images/winter.jpg')";
+    body.style.backgroundImage = "url('../assets/images/winter.jpg')";
     body.style.backgroundSize = "cover";
     body.style.backgroundPosition = "center";
     calendar.style.backgroundColor = "#7a9347";
